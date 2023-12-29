@@ -1,0 +1,1 @@
+**HTMLの中にJavaScriptを記述する方法**
