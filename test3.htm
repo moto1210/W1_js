@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        ブラウザのJavaScriptが無効の時に別のコンテンツを表示する
+    </h1>
+    <script>
+        element = document.currentScript;
+        element.insertAdjacentHTML('<p>これで表示がされています。</p>');
+    </script>
+    <noscript>
+        document.currentScript("これはjavascriptが無効になっているため出力されます");
+    </noscript>
+</body>
+</html>
