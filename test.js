@@ -1,0 +1,1 @@
+document.write("<p>JavaScriptファイルの読み込みテストです。出力されていれば成功</p>");
