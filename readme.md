@@ -3,10 +3,10 @@
 ### 1.element = document.currentScript;を記述する。
 ### 2.element.insertAdjacentHTML('挿入方法', '&lt;p&gt;表示させたいコード&lt;/p&gt;');のように記述する。
 ### 3.挿入方法における記述
-    - beforebegin: 要素の直前に挿入します。
-    - afterbegin: 要素の最初の子要素の前に挿入します。
-    - beforeend: 要素の最後の子要素の後に挿入します。
-    - afterend: 要素の直後に挿入します。
+    * beforebegin: 要素の直前に挿入します。
+    * afterbegin: 要素の最初の子要素の前に挿入します。
+    * beforeend: 要素の最後の子要素の後に挿入します。
+    * afterend: 要素の直後に挿入します。
 ---
 
 ## HTMLの中にJavaScriptを直接記述する方法(test1.htm)
@@ -22,4 +22,8 @@
 ### 3.指定された方には、直接書き込んだような物を記述するれば動く
 ---
 
+## ブラウザのJavaScriptが無効の時に別のコンテンツを表示する(test3.htm)
+### 1.&lt;noscript&gt;HTML記述&lt;/noscript&gt;記述の時にjavascriptが適応されていない旨を記述する。
+### 2.記述されていない場合はHTML文が出力される。
+### 3.記述方法はHTMLで書く
 

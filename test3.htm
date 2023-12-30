@@ -11,10 +11,10 @@
     </h1>
     <script>
         element = document.currentScript;
-        element.insertAdjacentHTML('<p>これで表示がされています。</p>');
+        element.insertAdjacentHTML('beforebegin', '<p>これは正常にjavascriptが表示されています。</p>');
     </script>
     <noscript>
-        document.currentScript("これはjavascriptが無効になっているため出力されます");
+        <p>"これはjavascriptが無効になっているため失敗が出力されます。"</p>
     </noscript>
 </body>
 </html>
